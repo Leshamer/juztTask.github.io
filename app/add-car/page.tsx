@@ -40,7 +40,7 @@ export default function AddCar() {
                 },
             });
             console.log("Car added successfully:", response.data);
-            router.push("/"); // Перенаправление на главную страницу после успешного добавления
+            router.push("/"); 
         } catch (error) {
             console.error("Ошибка при добавлении автомобиля:", error);
         }

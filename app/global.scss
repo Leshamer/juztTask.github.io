@@ -55,3 +55,28 @@ header{
     width: 100%;
     align-items: center;
 }
+.addCarWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 950px;
+    justify-content: center;
+    align-items: center;
+    .formContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+            max-width: 300px;
+            margin: 20px 0;
+        }
+        input, textarea, select, button{
+            border-radius: 10px;
+        }
+    }
+}
